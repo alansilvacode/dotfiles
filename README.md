@@ -8,4 +8,5 @@ Um padrão do sistemas unix hoje em dia é guardar as mais diversas configuraç�
 ln -s ~/.dotfiles/.screenrc ~/.screenrc
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.dmrc ~/.dmrc
+ln -s ~/.dotfiles/.face ~/.face
 ```
