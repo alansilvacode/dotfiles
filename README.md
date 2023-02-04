@@ -6,3 +6,4 @@ Um padrão do sistemas unix hoje em dia é guardar as mais diversas configuraç�
 
 ```sh
 ln -s ~/.dotfiles/.screenrc ~/.screenrc
+ln -s ~/.dotfiles/.bashrc ~/.bashrc
