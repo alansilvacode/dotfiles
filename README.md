@@ -13,4 +13,5 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/.bash_logout ~/.bash_logout
 ln -s ~/.dotfiles/.conkyrc ~/.conkyrc
+ln -s ~/.dotfiles/.genentriesrc ~/.genentriesrc
 ```
