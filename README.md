@@ -2,12 +2,16 @@
 
 Um padrão do sistemas unix hoje em dia é guardar as mais diversas configurações em arquivos iniciados com ponto: .gitignore, .bash, .bashrc, .profile, .m2, .zsh e por ai vai.
 
+<hr />
+
 ## Configurando o git
 
 ```sh
   cp examples/.gitconfig ./.gitconfig
   ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
+
+<hr />
 
 ## Configurando Terminal Alacritty
 
@@ -22,6 +26,8 @@ ou
   ln -s ~/.dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 ```
 
+<hr />
+
 ## Comandos para Seguir
 
 ```sh
@@ -32,10 +38,19 @@ ou
   ln -s ~/.dotfiles/.yarnrc ~/.yarnrc
   ln -s ~/.dotfiles/.conkyrc ~/.conkyrc
   ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
-  ln -s ~/.dotfiles/bash/.bashrc ~/.bashr
-  ln -s ~/.dotfiles/bash/.bash_profile ~/.bash_profile
-  ln -s ~/.dotfiles/bash/.bash_logout ~/.bash_logout
   ln -s ~/.dotfiles/polybar/.config ~/.config/polybar/config
 ```
+
+<hr />
+
+## Configurando o Shell Bash
+
+```sh
+  ln -s ~/.dotfiles/bash/.bashrc ~/.bashrc
+  ln -s ~/.dotfiles/bash/.bash_profile ~/.bash_profile
+  ln -s ~/.dotfiles/bash/.bash_logout ~/.bash_logout
+```
+
+<hr />
 
 ![Image Kang](./images/readme.jpg)
