@@ -11,6 +11,15 @@ Um padrão do sistemas unix hoje em dia é guardar as mais diversas configuraç�
   ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
 
+**Cuidado**
+
+esta linha está ativando o GPG, commits assinados. caso não tenha configurado, remova ou coloque como false
+
+```sh
+  [commit]
+	gpgSign = true
+```
+
 <hr />
 
 ## Configurando Terminal Alacritty
