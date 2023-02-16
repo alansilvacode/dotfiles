@@ -16,3 +16,5 @@ ln -s ~/.dotfiles/.conkyrc ~/.conkyrc
 ln -s ~/.dotfiles/.genentriesrc ~/.genentriesrc
 ln -s ~/.dotfiles/.yarnrc ~/.yarnrc
 ```
+
+![Image Kang](./images/readme.jpg)
