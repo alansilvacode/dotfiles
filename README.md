@@ -9,6 +9,19 @@ Um padrão do sistemas unix hoje em dia é guardar as mais diversas configuraç�
   ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
 
+## Configurando Terminal Alacritty
+
+```sh
+  cp -r ~/.dotfiles/alacritty ~/.config
+```
+
+ou
+
+```sh
+  rm ~/.config/alacritty/alacritty.yml
+  ln -s ~/.dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+```
+
 ## Comandos para Seguir
 
 ```sh
@@ -22,7 +35,6 @@ Um padrão do sistemas unix hoje em dia é guardar as mais diversas configuraç�
   ln -s ~/.dotfiles/bash/.bashrc ~/.bashr
   ln -s ~/.dotfiles/bash/.bash_profile ~/.bash_profile
   ln -s ~/.dotfiles/bash/.bash_logout ~/.bash_logout
-  ln -s ~/.dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
   ln -s ~/.dotfiles/polybar/.config ~/.config/polybar/config
 ```
 
